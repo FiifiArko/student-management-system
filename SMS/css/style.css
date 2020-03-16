@@ -1,0 +1,191 @@
+.form-signin {
+    max-width: 500px;
+    padding: 19px 29px 29px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    margin-top: 20px;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#000;
+    font-weight:lighter;
+}
+
+.form-signin .form-signin-heading{
+    color: green;
+}
+
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="email"] {
+    font-size: 16px;
+    height: auto;
+    padding: 7px 9px;
+}
+
+.form-signin input[type="text"]:focus,
+.form-signin textarea:focus,
+.form-signin input[type="password"]:focus,
+.form-signin input[type="tel"]:focus,
+.form-signin select:focus,
+.form-signin input[type="checkbox"]:focus,
+.form-signin input[type="email"]:focus {
+    border: 1px solid green;!important;
+}
+
+
+.error{
+    color: red;
+    font-size: 80%;
+}
+
+
+nav{
+    color: #000;
+    border-color: gray;
+    background-color: #000;
+    height: 50px;
+}
+
+nav div ul li a{
+    color: #000;
+}
+
+nav div ul li a:hover{
+    color: green;
+}
+
+#search{
+    margin-left: 20%;
+}
+
+#mainDash{
+    border: 1px solid gray;
+}
+
+.dash{
+    padding: 20px;
+    background: url("../images/bg.jpg") ;
+}
+
+#dashUser{
+    background-color: #1b6d85;
+}
+
+.inset{
+    box-shadow: 1px 3px 16px 1px black inset;
+}
+
+#userIcon{
+    font-size: 430%;
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px black;
+}
+
+#dashCourse{
+    background-color: green;
+    text-shadow: 3px 3px 3px black;
+}
+
+#courseIcon{
+    font-size: 400%;
+    color: whitesmoke;
+}
+
+
+#dashEdit{
+    background-color: brown;
+}
+
+#addExtra{
+    display: none;
+    background-color: rgba(0,0,0,1);
+    padding: 30px 0 30px 0;
+    margin-top: 90px;
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0 0 6px 6px;
+}
+
+#addMember{
+    cursor: pointer;
+}
+
+#dashboard{
+    margin-top: 50px;
+    position: absolute;
+    width: 90%;
+}
+
+#dashboardImg{
+    margin-left: 50%;
+    margin-top: 12%;
+}
+
+.check{
+    padding: 10px;
+    cursor: help;
+}
+
+.checkDelete{
+    background-color: red;
+    border: 1px solid crimson;
+    color: whitesmoke;
+}
+
+.unchecked
+{
+    font-size: 200%;
+    margin: 0 50px 0 0;
+}
+
+.checked{
+    margin: 0 50px 0 0;
+    font-size: 150%;
+}
+
+
+
+.checkInsert{
+    background-color: green;
+    border: 1px solid darkgreen;
+    color: whitesmoke;
+}
+
+.checkUpdate{
+    background-color: darkgoldenrod;
+    border: 1px solid darkorange;
+    color: whitesmoke;
+}
+
+.checkSelect{
+    background-color: #2b669a;
+    border: 1px solid darkblue;
+    color: whitesmoke;
+}
+
+.post {
+    padding: 10px;
+    background-color: #f9f9f9;
+    position: relative;
+    border: 1px solid white;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 2px 2px 0 #c2c2c2;
+    -webkit-box-shadow: 2px 2px 0 #c2c2c2;
+    box-shadow: 2px 2px 0 #c2c2c2;
+}
+
+.clear{
+    clear: both;
+}
